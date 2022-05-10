@@ -1,0 +1,114 @@
+body {
+    background-image: url('https://images7.alphacoders.com/708/708805.jpg');
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .task-input {
+    margin: 10px;
+  }
+  
+  .wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .container {
+    max-width: 269px;
+    width: 100%;
+    height: 50%;
+    margin-left: 180px;
+    margin-top: 60px;
+    padding: 1rem;
+    font-family: Arial;
+  }
+  
+  .container:first-child {
+    text-align: center;
+  }
+  
+  .auth-form {
+    display: inline-block;
+    margin-left: 40px;
+    padding: 30px;
+    background: rgb(77, 77, 77);
+    text-align: center;
+  }
+  
+  .field {
+    margin-bottom: 1rem;
+  }
+  
+  .field span {
+    color: #fff;
+  }
+  
+  .field:last-child {
+    margin-bottom: 0;
+  }
+  
+  .field > input {
+    border: 0;
+    border-radius: 26px;
+    padding: 5px;
+  }
+  
+  .field:last-child > button {
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #212121;
+    border: 0;
+    border-radius: 26px;
+    transition: 0.4s;
+    cursor: pointer;
+  }
+  
+  .field:last-child > button:hover {
+    background-color: #222121;
+    transition: 0.2s;
+    color: #78797b;
+  }
+  
+  .field:last-child {
+    text-align: center;
+  }
+  
+  .main-modal {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+  
+  .inner-modal {
+    width: 500px;
+    height: 200px;
+    background-color: #ffffff;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .close {
+    text-align: end;
+  }
+
+  .container1 {
+    max-width: 202px;
+    margin-left: 235px;
+    margin-top: 60px;
+    padding: 1rem;
+    color: #fff;
+    background-color: rgb(77, 77, 77);
+    text-align: center;
+  }
+  
+  

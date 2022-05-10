@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="auth-form">
+          <div class="field">
+            <span>Имя: </span>
+            <input type="text" placeholder="Введите имя" class="taskFirst" />
+            <span>E-mail: </span>
+            <input type="text" placeholder="Введите почту" class="taskSecond" />
+            <span>Фотография: </span>
+            <input type="text" placeholder="Вставьте ссылку" class="taskThird" />
+          </div>
+
+          <div class="field">
+            <button class="btn">Добавить</button>
+          </div>
+        </div>
+      </div>
+      <div class="container1">
+        <ul class="task-list"></ul>
+        <ul class="task-email"></ul>
+        <ul class="task-image"></ul>
+      </div>
+    </div>
+
+    <div class="main-modal">
+      <div class="inner-modal">
+        <div class="close">
+          <button class="btn-closer">X</button>
+        </div>
+        <input type="text" class="inp-edit" />
+        <button class="btn-save">Сохранить</button>
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
